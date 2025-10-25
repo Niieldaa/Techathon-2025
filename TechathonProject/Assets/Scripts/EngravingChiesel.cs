@@ -3,8 +3,8 @@ using UnityEngine;
 public class EngravingChiesel : MonoBehaviour
 {
     [Header("Engraving Settings")]
-    public float engravingRange = 0.2f; 
-    public GameObject engravingPointPrefab; 
+    public float engravingRange = 0.2f;
+    public GameObject engravingPointPrefab;
 
     private Rigidbody rb;
 
@@ -18,27 +18,16 @@ public class EngravingChiesel : MonoBehaviour
         // check if hammer hit this chisel
         if (collision.collider.CompareTag("Hammer"))
         {
-            Engrave();
+            Engrave(collision);
         }
     }
 
-    void Engrave()
+    void Engrave(Collision collision)
     {
-        // cast a ray downward (from chisel tip)
-        RaycastHit hit;
-        Vector3 origin = transform.position;
-        Vector3 direction = -transform.up; // assuming chisel tip faces -Y
-
-        if (Physics.Raycast(origin, direction, out hit, engravingRange))
+        if (collision.collider.CompareTag("Rock"))
         {
-            if (hit.collider.CompareTag("Rock"))
-            {
-                // spawn engraving point at the contact
-                Instantiate(engravingPointPrefab, hit.point, Quaternion.LookRotation(hit.normal));
+            Instantiate(engravingPointPrefab, transform.position, Quaternion.identity);
 
-                // optional feedback
-                Debug.Log("Engraved at: " + hit.point);
-            }
         }
     }
 }
