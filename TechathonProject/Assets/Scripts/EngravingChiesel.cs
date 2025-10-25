@@ -3,7 +3,6 @@ using UnityEngine;
 public class EngravingChiesel : MonoBehaviour
 {
     [Header("Engraving Settings")]
-    public float hitForceThreshold = 0.5f; // how hard the hammer must hit
     public float engravingRange = 0.2f; 
     public GameObject engravingPointPrefab; 
 
@@ -19,12 +18,7 @@ public class EngravingChiesel : MonoBehaviour
         // check if hammer hit this chisel
         if (collision.collider.CompareTag("Hammer"))
         {
-            float impactForce = collision.relativeVelocity.magnitude;
-
-            if (impactForce >= hitForceThreshold)
-            {
-                Engrave();
-            }
+            Engrave();
         }
     }
 
