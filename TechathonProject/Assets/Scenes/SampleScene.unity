@@ -535,6 +535,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 739959588014199218, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
+      propertyPath: m_Name
+      value: Hammerhandke
+      objectReference: {fileID: 0}
     - target: {fileID: 2845450172293810106, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.858
@@ -583,11 +587,24 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Hammer
       objectReference: {fileID: 0}
+    - target: {fileID: 3835395498208641117, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
+      propertyPath: m_grabPoints.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3835395498208641117, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
+      propertyPath: 'm_grabPoints.Array.data[0]'
+      value: 
+      objectReference: {fileID: 72552042}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
+--- !u!65 &72552042 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 8022044507133612428, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
+  m_PrefabInstance: {fileID: 72552041}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &81837412
 GameObject:
   m_ObjectHideFlags: 0
@@ -5180,6 +5197,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8143560449930083152, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+      propertyPath: m_grabPoints.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143560449930083152, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+      propertyPath: 'm_grabPoints.Array.data[0]'
+      value: 
+      objectReference: {fileID: 818454539}
+    - target: {fileID: 8202634725502097583, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+      propertyPath: m_Name
+      value: chielsehandle
+      objectReference: {fileID: 0}
     - target: {fileID: 8482763128844761955, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
       propertyPath: m_Name
       value: chiesel (1)
@@ -5189,6 +5218,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+--- !u!65 &818454539 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 3535687383699166646, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+  m_PrefabInstance: {fileID: 818454538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &825612346
 GameObject:
   m_ObjectHideFlags: 0
@@ -6886,7 +6920,7 @@ Transform:
   m_GameObject: {fileID: 1101201316}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5625601, y: -0.3, z: 0.9547367}
+  m_LocalPosition: {x: 0.5625601, y: -0.292, z: 0.965}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
