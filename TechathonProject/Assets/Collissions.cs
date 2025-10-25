@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Collissions : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class Collissions : MonoBehaviour
         }
     }
 
+    
     void OnCollsiionExit(Collision other)
     {
         if (other.gameObject.CompareTag("Sword"))
@@ -30,7 +32,10 @@ public class Collissions : MonoBehaviour
         }
         if (other.gameObject.CompareTag(""))
         {
-            // Do something here depending on tag
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Debug.Log("HEllo");
+            }
         }
     }
 
