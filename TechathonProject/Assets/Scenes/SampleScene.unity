@@ -5202,6 +5202,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -7954169122018503399, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+      propertyPath: engravingRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7954169122018503399, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
       propertyPath: engravingPointPrefab
       value: 
       objectReference: {fileID: 7683189671181533702, guid: ddbd69beeb7507049888b3bae8f8c54e, type: 3}
@@ -7190,6 +7194,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 523873427079177282, guid: ffab9ea2857f78a49bb23e82405d6258, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 039fffe24fc7e0341a9c3d39dc3abb58, type: 2}
     - target: {fileID: 919132149155446097, guid: ffab9ea2857f78a49bb23e82405d6258, type: 3}
       propertyPath: m_Name
       value: FinalJellingeSten
