@@ -595,16 +595,52 @@ PrefabInstance:
       propertyPath: 'm_grabPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 72552042}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3835395498208641117, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2929644485135766821, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 72552045}
   m_SourcePrefab: {fileID: 100100000, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
 --- !u!65 &72552042 stripped
 BoxCollider:
   m_CorrespondingSourceObject: {fileID: 8022044507133612428, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
   m_PrefabInstance: {fileID: 72552041}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &72552043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2929644485135766821, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
+  m_PrefabInstance: {fileID: 72552041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &72552044 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 5100867464446328614, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
+  m_PrefabInstance: {fileID: 72552041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &72552045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72552043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 0}
+  _twoGrabTransformer: {fileID: 0}
+  _targetTransform: {fileID: 0}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 72552044}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
 --- !u!1 &81837412
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,16 +5393,52 @@ PrefabInstance:
       propertyPath: m_Name
       value: chiesel (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8143560449930083152, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8482763128844761955, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 818454542}
   m_SourcePrefab: {fileID: 100100000, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
 --- !u!65 &818454539 stripped
 BoxCollider:
   m_CorrespondingSourceObject: {fileID: 3535687383699166646, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
   m_PrefabInstance: {fileID: 818454538}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &818454540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8482763128844761955, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+  m_PrefabInstance: {fileID: 818454538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &818454541 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 5490315200758711268, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+  m_PrefabInstance: {fileID: 818454538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &818454542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818454540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 0}
+  _twoGrabTransformer: {fileID: 0}
+  _targetTransform: {fileID: 0}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 818454541}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
 --- !u!1 &825612346
 GameObject:
   m_ObjectHideFlags: 0
