@@ -655,7 +655,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 9ba08f0f9453842f58bf713e567e36eb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cc8f3a375aa173c41ad55f2f4ba4a215, type: 2}
+      objectReference: {fileID: 2100000, guid: 5ab53d7d71fd6bc40a43367a08347f92, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1343,6 +1343,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53c44c570ea69f34ba51eeb5a877f8e9, type: 3}
+--- !u!1001 &1745282132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.687841
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1510117
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7926457043248091879, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0011
+      objectReference: {fileID: 0}
+    - target: {fileID: -3885292687172553777, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 859cab547ce1f524f8aaf818cc0c9950, type: 2}
+    - target: {fileID: 919132149155446097, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: m_Name
+      value: Chisel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381639855876710890, guid: c781285ab5df8bc438a026ec39946062, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 99143f6cfcb47a94cbaf107dda0dc8ad, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c781285ab5df8bc438a026ec39946062, type: 3}
 --- !u!1001 &1777416138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1391,6 +1460,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6041225824074333190, guid: f18cc1bf3abc3b143b922ae1cd1651da, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4f75ded2c6655214681a5f9993874584, type: 2}
     - target: {fileID: 919132149155446097, guid: f18cc1bf3abc3b143b922ae1cd1651da, type: 3}
       propertyPath: m_Name
       value: Mallet
@@ -1543,3 +1616,4 @@ SceneRoots:
   - {fileID: 2090756339}
   - {fileID: 717235419}
   - {fileID: 1777416138}
+  - {fileID: 1745282132}
