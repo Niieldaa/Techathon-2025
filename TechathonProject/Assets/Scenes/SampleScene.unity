@@ -539,6 +539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hammerhandke
       objectReference: {fileID: 0}
+    - target: {fileID: 739959588014199218, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
+      propertyPath: m_TagString
+      value: Hammer
+      objectReference: {fileID: 0}
     - target: {fileID: 2845450172293810106, guid: 714338225484dd44aa5d475d0419a8b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.174
@@ -5280,6 +5284,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8482763128844761955, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 818454542}
+    - targetCorrespondingSourceObject: {fileID: 8202634725502097583, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 818454544}
   m_SourcePrefab: {fileID: 100100000, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
 --- !u!65 &818454539 stripped
 BoxCollider:
@@ -5318,6 +5325,25 @@ MonoBehaviour:
   _rigidbody: {fileID: 818454541}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!1 &818454543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8202634725502097583, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}
+  m_PrefabInstance: {fileID: 818454538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &818454544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818454543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d34110910d3d04db97b7b2ca884645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engravingPointPrefab: {fileID: 7683189671181533702, guid: ddbd69beeb7507049888b3bae8f8c54e, type: 3}
+  engravingRange: 2
 --- !u!4 &818454547 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7661995432035551780, guid: 6910ce8f011f4bf4ea89c0a75a2fdba3, type: 3}

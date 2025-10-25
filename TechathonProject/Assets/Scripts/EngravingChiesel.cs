@@ -1,44 +1,44 @@
 using UnityEngine;
 
-public class EngravingChiesel : MonoBehaviour
+public class EngravingChisel : MonoBehaviour
 {
     [Header("Engraving Settings")]
-    public float engravingRange = 0.2f; 
-    public GameObject engravingPointPrefab; 
+    public GameObject engravingPointPrefab;
+    public float engravingRange = 0.2f; // optional raycast distance
 
-    private Rigidbody rb;
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
+    private bool hammerTouching = false;
+    private bool rockTouching = false;
 
     void OnCollisionEnter(Collision collision)
     {
-        // check if hammer hit this chisel
         if (collision.collider.CompareTag("Hammer"))
-        {
-            Engrave();
-        }
+            hammerTouching = true;
+
+        if (collision.collider.CompareTag("Rock"))
+            rockTouching = true;
+
+        // Only spawn if both are touching
+        if (hammerTouching && rockTouching)
+            SpawnEngraving(collision);
     }
 
-    void Engrave()
+    void OnCollisionExit(Collision collision)
     {
-        // cast a ray downward (from chisel tip)
-        RaycastHit hit;
-        Vector3 origin = transform.position;
-        Vector3 direction = -transform.up; // assuming chisel tip faces -Y
+        if (collision.collider.CompareTag("Hammer"))
+            hammerTouching = false;
 
-        if (Physics.Raycast(origin, direction, out hit, engravingRange))
-        {
-            if (hit.collider.CompareTag("Rock"))
-            {
-                // spawn engraving point at the contact
-                Instantiate(engravingPointPrefab, hit.point, Quaternion.LookRotation(hit.normal));
+        if (collision.collider.CompareTag("Rock"))
+            rockTouching = false;
+    }
 
-                // optional feedback
-                Debug.Log("Engraved at: " + hit.point);
-            }
-        }
+    void SpawnEngraving(Collision collision)
+    {
+        // Use first contact point for simplicity
+        ContactPoint contact = collision.contacts[0];
+
+        // Spawn engraving point on the rock
+        Instantiate(engravingPointPrefab, contact.point, Quaternion.LookRotation(contact.normal));
+
+        Debug.Log("Engraved at: " + contact.point);
     }
 }
