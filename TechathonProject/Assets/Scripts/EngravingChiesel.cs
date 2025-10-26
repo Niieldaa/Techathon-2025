@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EngravingChisel : MonoBehaviour
@@ -40,7 +41,14 @@ public class EngravingChisel : MonoBehaviour
     {
         Vector3 point = transform.position;
         Vector3 normal = rock.transform.up;
-        Instantiate(engravingPointPrefab, point + normal * 0.001f, Quaternion.LookRotation(normal));
+        Instantiate(engravingPointPrefab, point + normal * 0.00000001f, Quaternion.LookRotation(normal));
+    
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        plane.GetComponent<MeshRenderer>().material.color = Color.blue;
+
     }
 
 }
