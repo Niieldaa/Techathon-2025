@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Rock
   - Hammer
+  - Weapon
   layers:
   - Default
   - TransparentFX
