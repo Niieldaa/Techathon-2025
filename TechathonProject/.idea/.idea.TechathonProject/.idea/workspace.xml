@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3036f58-6f53-4b20-a89f-e6eb3254c622" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechathonProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechathonProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Our Assets/NetworkPrefabs.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Our Assets/NetworkPrefabs.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunInfo.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunSettings.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PurrHashes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PurrHashes.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PurrVersion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PurrVersion.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/RuntimeActionBindings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/RuntimeActionBindings.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Temp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Temp/XRSimulationPreferences.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Temp/XRSimulationPreferences.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Temp/XRSimulationRuntimeSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Temp/XRSimulationRuntimeSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761432558878</updated>
-      <workItem from="1761432563973" duration="1383000" />
+      <workItem from="1761432563973" duration="2186000" />
     </task>
     <servers />
   </component>
