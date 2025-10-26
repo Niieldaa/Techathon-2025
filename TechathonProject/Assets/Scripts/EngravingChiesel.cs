@@ -19,7 +19,6 @@ public class EngravingChisel : MonoBehaviour
             plane.GetComponent<MeshRenderer>().material.color = Color.red;
         }
             
-
         if (collision.CompareTag("Rock"))
         {
             rockTouching = true;
@@ -32,33 +31,16 @@ public class EngravingChisel : MonoBehaviour
             //SpawnEngraving(collision);
             Debug.Log("Spawn engraving now!");
         }
+
+        SpawnEngravingSimple(collision);
+
     }
 
-    void OnCollisionExit(Collision collision)
+    void SpawnEngravingSimple(Collider rock)
     {
-        if (collision.collider.CompareTag("Hammer"))
-        {
-            hammerTouching = false;
-            plane.GetComponent<MeshRenderer>().material.color = Color.white;
-        }
-            
-
-        if (collision.collider.CompareTag("Rock"))
-        {
-            rockTouching = false;
-            plane.GetComponent<MeshRenderer>().enabled = false;
-        }
-            
+        Vector3 point = transform.position;
+        Vector3 normal = rock.transform.up;
+        Instantiate(engravingPointPrefab, point + normal * 0.001f, Quaternion.LookRotation(normal));
     }
 
-    void SpawnEngraving(Collision collision)
-    {
-        // Use first contact point for simplicity
-        ContactPoint contact = collision.contacts[0];
-        
-        // Spawn engraving point on the rock
-        Instantiate(engravingPointPrefab, contact.point, Quaternion.LookRotation(contact.normal));
-
-        Debug.Log("Engraved at: " + contact.point);
-    }
 }
