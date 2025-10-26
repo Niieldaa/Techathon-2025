@@ -1,0 +1,16 @@
+using UnityEngine;
+
+public class VrRigReferences : MonoBehaviour
+{
+    public static VrRigReferences Singleton;
+    
+    public Transform root;
+    public Transform head;
+    public Transform leftHand;
+    public Transform rightHand;
+
+    private void Awake()
+    {
+        Singleton = this;
+    }
+}
