@@ -4276,10 +4276,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3471398954
+  GlobalObjectIdHash: 3188889406
   InScenePlacedSourceGlobalObjectIdHash: 3188889406
   DeferredDespawnTick: 0
-  Ownership: 1
+  Ownership: 8
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -4302,7 +4302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  root: {fileID: 0}
+  root: {fileID: 175137084314767478}
   head: {fileID: 807629654823184776}
   leftHand: {fileID: 6206412095576861519}
   rightHand: {fileID: 3581465268475198495}
@@ -7540,7 +7540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
-  instanceId: a8eca2c5-bcbd-477d-9cec-ac146a19a46a
+  instanceId: 8f83c167-b61f-4147-8ca6-91714cac103d
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -9269,7 +9269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
-  instanceId: e37e9921-3491-4bf2-9364-ab68a65de5d3
+  instanceId: a077634a-f588-4c3d-85ab-c5886f89a1cf
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
