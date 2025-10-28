@@ -4,6 +4,19 @@
 This project was created in **under 48 hours** during **Techathon 2025** in Jelling, Denmark.  
 The event’s main themes were **Bluetooth technology** and **storytelling**, which inspired us to merge **ancient Viking heritage** with **modern VR multiplayer immersion**.
 
+<p align="center">
+  <em>Are you going to be the next Viking ruler? — Etch your name into a runestone or grab a weapon and go <strong>BERSERK!?</strong></em><br>
+  <em>Step into the world of the Vikings in an epic 1v1 multiplayer VR experience in Jelling!</em>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a98484d4-c452-4312-8537-d938684a23f0" width="22%" />
+  <img src="https://github.com/user-attachments/assets/78011a8c-5623-4b5a-97c4-1fb626ece233" width="22%" />
+  <img src="https://github.com/user-attachments/assets/cca28a27-854f-40d6-87ce-c950e7870fbb" width="22%" />
+  <img src="https://github.com/user-attachments/assets/eb228633-b10f-45ad-8393-793a0042871e" width="22%" />
+</p>
+
 ---
 
 ## ⚔️ Inspiration  
@@ -18,7 +31,7 @@ We wanted to bring those stories to life in a way that’s **interactive**, **im
 - Compete in **intense Viking battles** using realistic motion and weapon physics.  
 - **Carve your name** into the legendary **Jelling Runestone** to claim your throne.  
 - Experience an **immersive, family-friendly adventure** that celebrates Danish heritage and Norse myth.  
-- Choose your destiny: fight with honor — or **go berserk!**  
+- Choose your destiny: etch your name or **go berserk!**  
 
 Will *you* be the one to sit on the throne?
 
@@ -35,9 +48,8 @@ Built with cutting-edge VR technology and a lot of Viking spirit:
 ---
 
 ## ⚙️ Challenges We Faced  
-- Implementing **multiplayer** in VR proved tricky — synchronizing interactions and positions was a major hurdle.  
+- Implementing **multiplayer** in VR proved tricky, synchronizing interactions and positions was a major hurdle.  
 - **Grab interactions** for weapons and objects needed extensive fine-tuning.  
-- Rendering complex environments on PCs caused **performance bottlenecks**.  
 
 ---
 
@@ -49,9 +61,8 @@ Built with cutting-edge VR technology and a lot of Viking spirit:
 ---
 
 ## What We Learned  
-- Multiplayer in VR is **way harder** than expected — especially with physics-based interactions.  
+- Multiplayer in VR is **way harder** than expected
 - Small optimizations make a big difference in **VR performance and comfort**.  
-- Combining history, storytelling, and tech can create something truly memorable.
 
 ---
 
@@ -68,13 +79,5 @@ Built with cutting-edge VR technology and a lot of Viking spirit:
 
 ---
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a98484d4-c452-4312-8537-d938684a23f0" width="22%" />
-  <img src="https://github.com/user-attachments/assets/78011a8c-5623-4b5a-97c4-1fb626ece233" width="22%" />
-  <img src="https://github.com/user-attachments/assets/cca28a27-854f-40d6-87ce-c950e7870fbb" width="22%" />
-  <img src="https://github.com/user-attachments/assets/eb228633-b10f-45ad-8393-793a0042871e" width="22%" />
-</p>
-
----
 
 
