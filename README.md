@@ -17,6 +17,11 @@ The event’s main themes were **Bluetooth technology** and **storytelling**, wh
   <img src="https://github.com/user-attachments/assets/eb228633-b10f-45ad-8393-793a0042871e" width="22%" />
 </p>
 
+<p align="center">
+  <a href="https://devpost.com/software/etched-in-runestone-acend-to-the-throne">Check it out on Devpost!</a>
+</p>
+
+
 ---
 
 ## ⚔️ Inspiration  
